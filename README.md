@@ -1,3 +1,4 @@
+
 **IMPORTANT**: Master branch is the only branch that is guaranteed to be up-to-date.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.4.
@@ -84,3 +85,7 @@ In case you need assistance setting this up or have any feedback/suggestions, yo
 
 + Email: __ragavendra.yarasi@ishafoundation.org__
 + [Slack](https://isha-it.slack.com) Display Name: __ragavendra__
+=======
+# angularstarterapp
+Angular Starter App
+
