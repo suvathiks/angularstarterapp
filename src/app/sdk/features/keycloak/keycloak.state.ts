@@ -52,6 +52,11 @@ export class KeycloakState {
     return state.keycloakName;
   }
 
+  @Selector()
+  static useremail(state:KeycloakStateModel) {
+    return state.keycloakEmail;
+  }
+
   @Action(Login)
   login({ getState }: StateContext<KeycloakStateModel>) {
     let state = getState();
