@@ -8,6 +8,7 @@ import { NgxsReduxDevtoolsPluginModule } from "@ngxs/devtools-plugin";
 import { BrowserModule } from "@angular/platform-browser";
 import {MasterFormModule} from "./features/master-form/master-form.module";
 import {TableModule} from "./features/table/table.module";
+import { KeycloakModule } from "./features/keycloak/keycloak.module";
 
 @NgModule({
   declarations: [],
@@ -20,6 +21,7 @@ import {TableModule} from "./features/table/table.module";
     NavigationModule,
     MasterFormModule,
     TableModule,
+    KeycloakModule,
     NgxsReduxDevtoolsPluginModule.forRoot()
   ],
   providers: []
